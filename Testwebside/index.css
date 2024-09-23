@@ -5,6 +5,10 @@
   font-size: 16px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
@@ -159,7 +163,7 @@ header {
 
 .newsletter{
   text-align: center;
-  margin-bottom: 64px;
+  
   padding: 64px;
   background-image: url("./TRHLb7syrFr3EmDr1LO9--1--g35dw.jpg");
   background-size: cover;
@@ -192,7 +196,39 @@ header {
         }
       }
     }
+  }
+}
 
 
+footer{
+  background-color: rgb(16, 15, 15);
+  color: aliceblue;
+  padding: 64px 32px;
+  display: flex;
+  gap: 64px;
+
+  ul{
+    list-style: none;
+    
+    
+    a{ 
+      text-decoration: none;
+      border-bottom: 1px solid aliceblue;
+      color: aliceblue;
+
+      &:hover{
+        border-color: red;
+      }
+    }
+
+    li{
+      margin-bottom: 16px;
+    }
+
+    p{
+      font-weight: 600;
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
   }
 }
