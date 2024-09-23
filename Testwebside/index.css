@@ -2,10 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+}
+
+.h3{
+  font-size: 60px;
 }
 
 .cta-btn {
@@ -20,6 +26,22 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   font-size: 16px;
+}
+
+.submit-btn{
+  padding: 16px 32px;
+  background-color: rgb(245, 111, 111);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  
+  &:hover{
+    background-color: red;
+  }
+
+  &:active{
+    background-color: black;
+  }
 }
 
 header {
@@ -80,12 +102,9 @@ header {
   h3{
     text-align: center;
     margin-bottom: 64px;
-    font-size: 60px;
   }
 
     .product-cards{
-      
-
       display: flex;
       gap: 32px;
       flex-wrap: wrap;
@@ -133,4 +152,29 @@ header {
         }
       }
     }
+}
+
+
+.newsletter{
+  border: 3px solid red;
+  text-align: center;
+
+  form{
+    margin-top: 32px;
+
+    .input-containter{
+      label{
+        display: none;
+      }
+
+      input{
+        margin-bottom: 32px;
+        font-size: 16px;
+        padding: 8px;
+        width: 300px;
+      }
+    }
+
+
+  }
 }

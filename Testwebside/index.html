@@ -28,7 +28,7 @@
       </section>
 
       <section class="products-section">
-        <h3>Products</h3>
+        <h3 class="h3">Products</h3>
         <div class="product-cards">
           <div class="product-card-container">
             <div class="product-card-head">
@@ -99,12 +99,14 @@
       </section>
 
       <section class="newsletter">
+        <h3 class="h3">Newsletter</h3>
         <form method="post" action>
           <div class="input-containter">
-            <input type="email" name="email" placeholder="email" />
+            <label for="email">Your Email</label>
+            <input id="email" type="email" name="email" placeholder="email" aria-label="Insert here your email" />
           </div>
 
-          <button type="submit">Send</button>
+          <button class="submit-btn" type="submit">Send</button>
         </form>
       </section>
     </main>
