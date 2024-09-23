@@ -65,6 +65,8 @@ header {
   nav {
     display: flex;
     gap: 12px;
+    /*position: fixed;
+    top: 0;*/
     
 
     a {
